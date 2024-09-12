@@ -1,0 +1,121 @@
+p {
+    font-family: Roboto;
+}
+.vipawa-button{
+    background-color: rgb(92, 166, 45);
+    color: rgb(14, 13, 20);
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 
+    box-shadow:5px 5px 10px  rgba(0, 0, 0, 0.15); 
+    transition: opacity 0.01s;
+
+}
+
+.vipawa-button:hover{
+    opacity: 0.7;
+}
+
+.vipawa-button:active{
+    opacity: 0.5;
+}
+.sign-up-button{
+    background-color: rgb(237, 144, 144);
+    color: black;
+    border-color: purple;
+    border-style:solid ;
+    border-width: 1px;
+    cursor: pointer;
+    width: 200px;
+    transition: background-color blue ;
+}
+    .start-button:hover {
+        opacity: 0.1;
+    }
+    .start-button:active {
+        opacity: 0.6;
+        background-color: blue;
+    }
+
+.categories-button{
+  background-color: aqua;  
+  color: white;
+  border: none;
+  width: 200px;
+  height: 360px
+  cursor: pointer;
+  border-radius: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+
+}
+
+.categories-button:hover{
+ box-shadow:5px 5px 10px  rgba(0, 0, 0, 0.15);
+}
+
+.app-title {
+  font-family: Arial, Helvetica, sans-serif;  
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px;
+  color: rgb(96, 6, 155);
+  margin-bottom: 0;
+  margin-top: 10;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.download-app-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(159, 20, 20);
+
+
+}
+.download-button{
+    background-color:rgb(159, 20, 20);
+    color: white;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: 0.15s;
+    margin-bottom: 40px;
+
+.download-button:hover{
+    opacity: 0.7;
+    
+}
+.download-button:active{
+    opacity: 0.7;
+    background-color: rgb(221, 131, 22);
+    margin-bottom: 60px;
+}
+}
+
+.curate-text {
+    background-color: gold;
+    margin-bottom: 500px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.span-text {
+    color: black;
+    
+}
+
+.span-text:hover {
+    text-decoration:underline ;
+    color: goldenrod;
+    cursor: pointer;
+
+}
