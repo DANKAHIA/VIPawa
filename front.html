@@ -35,6 +35,13 @@
 
     .search-bar {
       font-size: 20px; 
+      margin-left: 10px;
+      display: flex;
+      max-width: 100px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    padding-left: 30px;
+    
     }
 
     .cover-pics{
@@ -48,13 +55,56 @@
 
     .name-logo{
         display: grid;
-        grid-template-columns:1fr 1fr;
-        margin-bottom: 50px;
+        grid-template-columns:1fr 1fr  ;
+        margin-bottom: 70px;
 
+    }
+    .notification-bell{
+        width: 50px;
+        display: grid;
     }
 .buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header {
+   height: 100px; 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+}
+
+.body {
+  margin: 10px;  
+}
+
+.bottom {
+   display: grid;
+   grid: 100px 1fr;
+
+}
+
+.search-button {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-bar-button {
+    height: 64px;
+    border-width: 1px;
+    background-color: gray;
+}
+
+.profile-pic {
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    border
 }
 
 
@@ -65,18 +115,30 @@
     </head>
     <body>
 
-        <div>
-            <div class="name-logo">
-                <button class="vipawa-button">Vipawa</button>
-    
-                <img class="logo-pic" src="Y.png" alt="">
-               
-            </div>
+        <div class="body">
 
-            <div class="search-bar">
-                <input class="search-bar" type="text" placeholder="Search">
-            
+            <div class="header">
+                <div class="name-logo">
+                    <button class="vipawa-button">Vipawa</button>
+
+        
+                    <img class="logo-pic" src="Y.png" alt="">
+
+                    
+                   </div>
+    
+                <div class="search-bar">
+                    <input class="search-bar" type="text" placeholder="Search">
+                  <button class="search-bar-button">
+                    <img class="search-button" src="search-button.png" alt="">
+                  </button>
+                   
+                </div>
+
+                    <img class="notification-bell" src="notification-bell.svg" alt="">
+                    <img class="profile-pic" src="profile-pic-1.jpg" alt="">
             </div>
+            
            
          
      <div class="cover-pics" >
@@ -93,7 +155,7 @@
     <button class="categories-button">Categories</button>
     </div>
     
-    <div>
+    <div class="bottom">
         <p class="app-title">#1 platform to find musicians and creatives &#183; </p>
         <p class="download-app-text">Download App &#10003; </p>
         <button class="download-button">Download</button>

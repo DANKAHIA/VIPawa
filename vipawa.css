@@ -1,5 +1,6 @@
 p {
-    font-family: Roboto;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+
 }
 .vipawa-button{
     background-color: rgb(92, 166, 45);
@@ -8,7 +9,7 @@ p {
     width: 100px;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 
+    margin-right: 0;
     box-shadow:5px 5px 10px  rgba(0, 0, 0, 0.15); 
     transition: opacity 0.01s;
 
@@ -85,6 +86,7 @@ p {
     cursor: pointer;
     transition: 0.15s;
     margin-bottom: 40px;
+    width: 100px;
 
 .download-button:hover{
     opacity: 0.7;
@@ -94,12 +96,13 @@ p {
     opacity: 0.7;
     background-color: rgb(221, 131, 22);
     margin-bottom: 60px;
+
 }
 }
 
 .curate-text {
     background-color: gold;
-    margin-bottom: 500px;
+    margin-bottom: 10px;
     font-size: 14px;
     text-align: center;
     padding-top: 10px;
